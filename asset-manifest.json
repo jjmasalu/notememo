@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/notememo/static/css/main.16e47d93.css",
+    "main.js": "/notememo/static/js/main.18ac242e.js",
+    "index.html": "/notememo/index.html",
+    "main.16e47d93.css.map": "/notememo/static/css/main.16e47d93.css.map",
+    "main.18ac242e.js.map": "/notememo/static/js/main.18ac242e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16e47d93.css",
+    "static/js/main.18ac242e.js"
+  ]
+}

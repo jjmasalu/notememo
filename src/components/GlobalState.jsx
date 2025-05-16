@@ -9,9 +9,13 @@ function GlobalProvider({ children }) {
   function addNote(newNote) {
     setNotes((prevNotes) => [...prevNotes, newNote]);
   }
+ function deleteNote(id) {
+    console.log("deleted", id);
+    setNotes((prevNotes) => prevNotes.filter((note) => note.id !== id));
+  }
 
   return (
-    <globalState.Provider value={{ notesList, addNote }}>
+    <globalState.Provider value={{ notesList, addNote, deleteNote }}>
       {children}
     </globalState.Provider>
   );

@@ -34,7 +34,7 @@ function AddNote(props) {
         onClick={(e) => {
           e.preventDefault();
           const newNote = {
-            key: notesList.length + 1,
+            id: notesList.length + 1,
             title: title,
             content: note,
           };

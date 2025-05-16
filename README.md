@@ -29,7 +29,7 @@ Features
 
 * Add new notes with title and content
 * Display all notes in a list
-* Delete notes (not implemented)
+* Delete notes
 
 Components
 ------------
@@ -49,6 +49,7 @@ The notememo App uses React's Context API to manage global state. The `GlobalSta
 
 * `notesList`: An array of all notes
 * `addNote`: A function to add a new note to the list
+* `deleteNote`: A function to permanently remove a note from the list
 
 Styles
 ------
